@@ -1,6 +1,6 @@
 # Création du bucket S3
 resource "aws_s3_bucket" "website_bucket" {
-  bucket = "lecloudfacile-myname-005" # Remplacez par un nom unique
+  bucket = "lecloudfacilelab3aws"
 }
 
 # # Politique du bucket pour permettre l'accès public en lecture
